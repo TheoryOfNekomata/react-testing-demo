@@ -1,6 +1,6 @@
-# Import component in test
+# Create component file
 
-We attempt to import the component to be tested here.
+We add a blank component file.
 
-The test may pass even though the file to be imported does not exist yet. If we are to compile the test file, TypeScript
+The test may pass even though the file does not export a component yet. If we are to compile the test file, TypeScript
 will report an error.
