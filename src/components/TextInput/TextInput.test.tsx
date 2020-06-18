@@ -23,4 +23,12 @@ describe('src/components/TextInput', () => {
 
 		expect(wrapper.find('input').length).toBe(1)
 	})
+
+	it('should render a <span> component for the label prop', () => {
+		const wrapper = Enzyme.shallow(
+			<TextInput label="foobar" />
+		)
+
+		expect(wrapper.find('span').length).toBe(1)
+	})
 })

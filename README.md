@@ -1,3 +1,5 @@
-# Add basic component code
+# Introduce new test
 
-To satisfy the previous test, we add basic component code.
+This shall test for the `<span>` element for displaying the label of the `TextInput` component.
+
+The test should fail because there is no `<span>` element present for now.
