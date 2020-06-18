@@ -1,5 +1,3 @@
-# Add test logic
+# Add basic component code
 
-We attempt to shallow-render the component here.
-
-The test should fail because we are not importing a React component from the test file.
+To satisfy the previous test, we add basic component code.
