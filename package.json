@@ -20,8 +20,11 @@
 	},
 	"devDependencies": {
 		"@types/enzyme": "^3.10.5",
+		"@types/enzyme-adapter-react-16": "^1.0.6",
+		"@types/react-is": "^16.7.1",
 		"enzyme": "^3.11.0",
 		"enzyme-adapter-react-16": "^1.15.2",
-		"prettier": "^2.0.5"
+		"prettier": "^2.0.5",
+		"react-is": "^16.13.1"
 	}
 }

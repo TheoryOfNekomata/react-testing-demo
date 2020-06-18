@@ -1,6 +1,5 @@
-# Create component file
+# Add test logic
 
-We add a blank component file.
+We attempt to shallow-render the component here.
 
-The test may pass even though the file does not export a component yet. If we are to compile the test file, TypeScript
-will report an error.
+The test should fail because we are not importing a React component from the test file.
