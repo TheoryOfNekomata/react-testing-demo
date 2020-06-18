@@ -1,6 +1,5 @@
-# Add Enzyme for component testing
+# Add test file for sample component
 
-We added [Enzyme](https://enzymejs.github.io) to isolate rendering among components for easy testing.
+We create a blank file, [`TextInput.test.tsx`](./src/components/TextInput/TextInput.test.tsx).
 
-We also added [extra configuration for Jest](./src/setupTests.js) because [Enzyme requires adapters for React
-16](https://enzymejs.github.io/enzyme/docs/installation/react-16.html).
+Upon running `yarn test`, we should expect the test to fail.
