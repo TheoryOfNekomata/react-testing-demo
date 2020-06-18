@@ -1,5 +1,6 @@
-# Add test file for sample component
+# Add tests
 
-We create a blank file, [`TextInput.test.tsx`](./src/components/TextInput/TextInput.test.tsx).
+Because Jest complains of the test suite not having any tests, we add
+basic tests without expectations.
 
-Upon running `yarn test`, we should expect the test to fail.
+Observe the test file, as this is the basic structure for unit tests moving forward.
