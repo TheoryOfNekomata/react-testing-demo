@@ -1,3 +1,5 @@
+import TextInput from './TextInput'
+
 describe('src/components/TextInput', () => {
 	it('should exist', () => {
 	})

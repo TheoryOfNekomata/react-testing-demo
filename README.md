@@ -1,6 +1,6 @@
-# Add tests
+# Import component in test
 
-Because Jest complains of the test suite not having any tests, we add
-basic tests without expectations.
+We attempt to import the component to be tested here.
 
-Observe the test file, as this is the basic structure for unit tests moving forward.
+The test may pass even though the file to be imported does not exist yet. If we are to compile the test file, TypeScript
+will report an error.
