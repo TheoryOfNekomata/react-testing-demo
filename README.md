@@ -1,3 +1,3 @@
-# Satisfy test
+# Add another test for label
 
-We add a `<span>` to the component. The test should pass now.
+We add another test to ensure the label comes before the input. The test should fail.

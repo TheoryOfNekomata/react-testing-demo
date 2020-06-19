@@ -31,4 +31,13 @@ describe('src/components/TextInput', () => {
 
 		expect(wrapper.find('span').length).toBe(1)
 	})
+
+	it('should render the label element before the input element', () => {
+		const wrapper = Enzyme.shallow(
+			<TextInput label="foobar" />
+		)
+
+		expect(wrapper.childAt(0).type()).toBe('span')
+		expect(wrapper.childAt(1).type()).toBe('input')
+	})
 })
