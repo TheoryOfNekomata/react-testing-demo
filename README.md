@@ -1,5 +1,3 @@
-# Introduce new test
+# Satisfy test
 
-This shall test for the `<span>` element for displaying the label of the `TextInput` component.
-
-The test should fail because there is no `<span>` element present for now.
+We add a `<span>` to the component. The test should pass now.
